@@ -1,0 +1,17 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.middle.ware</groupId>
+	<artifactId>middle-ware-parent</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<modules>
+		<module>mid-redis</module>
+		<module>mid-zookeeper</module>
+		<module>mid-rabbitMQ</module>
+		<module>mid-activeMQ</module>
+		<module>kafka</module>
+		<module>mid-flume</module>
+	</modules>
+</project>
